@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+
+
+:root {
+    --cor01: #202BBD;
+    --cor02: #7980E0;
+    --cor03: #222DC7;
+    --cor04: #383949;
+    --cor05: #192194;
+
+    --fonte-principal: 'Roboto Mono', monospace;
+    --meuback: linear-gradient(to top, var(--cor01), var(--cor02));
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--cor05);
+}
+
+header {
+    background-image: var(--meuback);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+header > img {
+    border-radius: 50%;
+    box-shadow: 1px 3px 6px 0px rgba(0, 0, 0, 0.473);
+}
+
+
+
+header > h1{
+    color: black;
+    margin-bottom: 20px;
+}
+
+header > h2 {
+    color: black;
+    
+    margin-bottom: 10px;
+}
+
+header > p {
+    color: black;
+    font-weight: bold;
+}
+
+nav {
+    background-color: var(--cor01);
+    padding: 20px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.247);
+}
+
+nav > a {
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.8s;
+}
+
+main {
+    max-width: 700px;
+    min-width: 600px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.651);
+    margin-bottom: 30px;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349);
+}
+
+a:hover {
+    background-color: var(--cor02);
+    color: var(--cor05);
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+hr {
+    background-color: black;
+}
+
+main h2 {
+    text-align: center;
+}
+
+main h3 {
+    text-align: center;
+}
+
+main ul {
+    margin-bottom: 10px;
+    padding: 50px;
+}
+
+main p {
+    text-align: justify;
+}
+
+main a {
+    text-decoration: none;
+}
+
+section {
+    padding: auto;
+}
+
+
+
+footer {
+
+    color: black;
+}
+
+footer > p {
+    position: relative;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    max-width: 80%;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    margin-top: auto;
+    transition-duration: 0.8s;
+}
+
+footer a:hover {
+    background-color: var(--cor01);
+    color: white;
+    border-radius: 10%;
+    
+}
